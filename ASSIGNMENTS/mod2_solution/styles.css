@@ -1,10 +1,9 @@
+
 * {
   box-sizing: border-box;
 }
 
 body{
-  margin: 0px;
-  padding: 0px;
   font-family: "Times New Roman", Times, serif;
 }
 
@@ -29,7 +28,6 @@ h1 {
   text-align: center;
   border: 1px solid black;
   width: 100px;
-  height: 40px;
   padding: 5px;
   float: right;
   margin-right: 36px;
@@ -37,11 +35,11 @@ h1 {
   font-weight: bold;
   position: relative;
   display: inline-block;
+  margin-right: 2.5% !important;
 }
 
 .content{
   border: 1px solid black;
-  width: 90%;
   height: auto;
   margin: 2.5%;
   color: black
@@ -74,6 +72,8 @@ h1 {
 @media (min-width: 768px) and (max-width: 991px) {
   .col-md-6,.col-md-12 {
     float: left;
+    margin-left: auto;
+    margin-right: auto;
   }
   .col-md-6 {
     width: 50%;
@@ -81,10 +81,6 @@ h1 {
   .col-md-12 {
     margin-left: -10px;
     width: 100%;
-  }
-  .sushi{
-    margin-right: 65px;
-    width: 100px;
   }
 }
 
