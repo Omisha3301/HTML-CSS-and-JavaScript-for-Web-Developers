@@ -3,8 +3,8 @@
 }
 
 body{
-	margin: 0;
-	padding: 0;
+  margin: 0px;
+  padding: 0px;
   font-family: "Times New Roman", Times, serif;
 }
 
@@ -20,6 +20,7 @@ h1 {
 .box{
   width: 100%;
   overflow: none;
+  
 }
 
 
@@ -35,6 +36,7 @@ h1 {
   margin-top: 0px;
   font-weight: bold;
   position: relative;
+  display: inline-block;
 }
 
 .content{
@@ -64,7 +66,7 @@ h1 {
 /*Large devices */
 @media (min-width: 992px) {
   .col-lg-4 {
-  	float: left;
+    float: left;
     width: 33.33%;
   }
 }
@@ -80,7 +82,7 @@ h1 {
     margin-left: -10px;
     width: 100%;
   }
-  .name3{
+  .sushi{
     margin-right: 65px;
     width: 100px;
   }
@@ -88,10 +90,10 @@ h1 {
 
 @media (min-width: 0px) and (max-width: 767px) {
   .col-sm-12 {
-  	float: left;
+    float: left;
     width: 100%;
   }
   .content-name{
-    margin-right: 30px;
+    margin-right: 8%;
   }
 }
